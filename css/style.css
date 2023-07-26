@@ -1,0 +1,84 @@
+body {
+    background-color: #fff;
+}
+.container {
+    height: 600px;
+}
+.row{
+    height: 600px !important;
+}
+form {
+    background-color: #fff;
+    padding: 20px!important;  
+}
+
+.form-control-signup a {
+    text-decoration: none;
+    color: rgb(67, 67, 255);
+}
+
+.text-title span{
+    color: #EF4323;
+}
+
+.text-title {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.card-main {
+    z-index: 1;
+}
+
+.card {
+    transition: transform 0.2s; 
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.img-main {
+    position: relative;
+}
+
+.live {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #EF4323;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.watch {
+    position: absolute;
+    bottom: -5px;
+    right: 10px;
+    background-color: #F4F6FA;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.stream span{
+    color: #EF4323;
+}
